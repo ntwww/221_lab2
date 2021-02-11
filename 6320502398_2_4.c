@@ -9,14 +9,14 @@ int main ()
     n=n%2;
     if(n1%10==5)
         printf("%c",h);
-    if(c<'J')
+    if(c>='A'&&c<='I')
     {
         if(n==1)
             printf("(^_^)");
         else
             printf("{@_@}");
     }
-    else if (c<'S')
+    else if (c>='J'&&c<='R')
     {
         if(n==1)
             printf("(*o*)");
